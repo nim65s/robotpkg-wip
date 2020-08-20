@@ -1,0 +1,9 @@
+share/agimus-hpp/package.xml
+share/agimus-hpp/launch
+share/agimus-hpp/launch/hpp_interface.launch
+share/agimus-hpp/cmake/agimus-hppConfig-version.cmake
+share/agimus-hpp/cmake/agimus-hppConfig.cmake
+share/agimus-hpp/scripts/hpp_node.py
+share/agimus-hpp/scripts/estimation.py
+lib/hppPlugins/agimus-hpp.so
+lib/pkgconfig/agimus-hpp.pc

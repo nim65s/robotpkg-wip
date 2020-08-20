@@ -1,0 +1,6 @@
+share/agimus-sot/launch/supervisor.launch
+share/agimus-sot/scripts/simulation.py
+share/agimus-sot/scripts/start_supervisor.py
+share/agimus-sot/package.xml
+lib/libagimus-sot.so
+lib/pkgconfig/agimus-sot.pc
