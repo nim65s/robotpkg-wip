@@ -13,6 +13,7 @@ LICENSE=		2-clause-bsd
 
 CATEGORIES=		wip
 COMMENT=		Computer vision for Agimus
+CMAKE_ARGS+=    -DPYTHON_STANDARD_LAYOUT=ON
 
 include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../image/ros-vision-opencv/depend.mk
