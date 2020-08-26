@@ -11,10 +11,11 @@ DISTNAME=		${NAME}-${VERSION}
 
 MASTER_SITES=		${MASTER_SITE_AGIMUS:=${NAME}/${DOWNLOAD_LOC}/v${VERSION}/}
 MASTER_REPOSITORY=	${MASTER_REPOSITORY_GITHUB}${ORG}/${NAME}/${DOWNLOAD_LOC}/v${VERSION}
-LICENSE=		gnu-lgpl-v3
+LICENSE=		BSD-2-Clause
 
 CATEGORIES=		wip
 COMMENT=		Computer vision for Agimus
+CMAKE_ARGS+=    -DPYTHON_STANDARD_LAYOUT=ON
 
 include ../../image/ros-vision-opencv/depend.mk
 include ../../devel/ros-catkin/depend.mk

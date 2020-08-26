@@ -11,10 +11,11 @@ DISTNAME=		${NAME}-${VERSION}
 
 MASTER_SITES=		${MASTER_SITE_AGIMUS:=${NAME}/${DOWNLOAD_LOC}/v${VERSION}/}
 MASTER_REPOSITORY=	${MASTER_REPOSITORY_GITHUB}${ORG}/${NAME}/${DOWNLOAD_LOC}/v${VERSION}
-LICENSE=		gnu-lgpl-v3
+LICENSE=		BSD-2-Clause
 
 CATEGORIES=		wip
-COMMENT=		Agimus
+COMMENT=		agimus
+CMAKE_ARGS+=    -DPYTHON_STANDARD_LAYOUT=ON
 
 include ../../wip/agimus_sot_msgs/depend.mk
 include ../../wip/agimus-hpp/depend.mk

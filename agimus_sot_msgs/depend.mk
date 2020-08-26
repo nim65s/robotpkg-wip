@@ -11,7 +11,7 @@ endif
 
 ifeq (+,$(AGIMUS_SOT_MSGS_DEPEND_MK)) # -------------------------------------------
 
-PREFER.agimus_sot_msgs?=		robotpkg
+PREFER.agimus_sot_msgs=		robotpkg
 
 DEPEND_USE+=			agimus_sot_msgs
 
@@ -20,7 +20,8 @@ DEPEND_DIR.agimus_sot_msgs?=	../../wip/agimus_sot_msgs
 
 SYSTEM_SEARCH.agimus_sot_msgs= \
 	'lib/pkgconfig/agimus_sot_msgs.pc:/Version/s/[^0-9.]//gp' \
-	'share/agimus_sot_msgs/cmake/agimus_sot_msgsConfig-version.cmake:/PACKAGE_VERSION/s/[^0-9.]//gp'
+	'share/agimus_sot_msgs/cmake/agimus_sot_msgsConfig-version.cmake:/PACKAGE_VERSION/s/[^0-9.]//gp' \
+    'share/agimus_sot_msgs/cmake/agimus_sot_msgsConfig.cmake:/PACKAGE_VERSION/s/[^0-9.]//gp'
 
 endif # AGIMUS_SOT_MSGS_DEPEND_MK -------------------------------------------------
 

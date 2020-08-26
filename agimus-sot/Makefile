@@ -11,15 +11,19 @@ DISTNAME=		${NAME}-${VERSION}
 
 MASTER_SITES=		${MASTER_SITE_AGIMUS:=${NAME}/${DOWNLOAD_LOC}/v${VERSION}/}
 MASTER_REPOSITORY=	${MASTER_REPOSITORY_GITHUB}${ORG}/${NAME}/${DOWNLOAD_LOC}/v${VERSION}
-LICENSE=		gnu-lgpl-v3
+LICENSE=		BSD-2-Clause
 
 CATEGORIES=		wip
 COMMENT=		Package to link SoT to the Agimus framework.
 
+CMAKE_ARGS+=    -DPYTHON_STANDARD_LAYOUT=ON
 
-include ../../wip/sot-core-v3/depend.mk
-include ../../wip/py-dynamic-graph-bridge-v3/depend.mk
+include ../../wip/agimus_sot_msgs/depend.mk
 include ../../wip/py-dynamic-graph-v3/depend.mk
+include ../../wip/py-dynamic-graph-bridge-v3/depend.mk
+include ../../wip/py-sot-core-v3/depend.mk
+include ../../wip/sot-core-v3/depend.mk
+include ../../path/py-hpp-manipulation-corba/depend.mk
 include ../../devel/ros-catkin/depend.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk

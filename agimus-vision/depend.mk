@@ -16,7 +16,7 @@ PREFER.agimus-vision?=		robotpkg
 DEPEND_USE+=			agimus-vision
 
 DEPEND_ABI.agimus-vision?=	agimus-vision>=1.0.0
-DEPEND_DIR.agimus-vision1?=	../../wip/agimus-vision
+DEPEND_DIR.agimus-vision?=	../../wip/agimus-vision
 
 SYSTEM_SEARCH.agimus-vision= \
 	'lib/pkgconfig/agimus-vision.pc:/Version/s/[^0-9.]//gp' \

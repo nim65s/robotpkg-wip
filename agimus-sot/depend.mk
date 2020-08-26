@@ -9,18 +9,18 @@ ifeq (+,$(DEPEND_DEPTH))
 DEPEND_PKG+=			agimus-sot
 endif
 
-ifeq (+,$(AGIMUS_SOT__DEPEND_MK)) # -------------------------------------------
+ifeq (+,$(AGIMUS_SOT_DEPEND_MK)) # -------------------------------------------
 
 PREFER.agimus-sot?=		robotpkg
-
-SYSTEM_SEARCH.agimus-sot=										\
-	'lib/pkgconfig/agimus-sot.pc:/Version/s/[^0-9.]//gp'
-
 
 DEPEND_USE+=			agimus-sot
 
 DEPEND_ABI.agimus-sot?=	agimus-sot>=1.0.2
 DEPEND_DIR.agimus-sot?=	../../wip/agimus-sot
+
+SYSTEM_SEARCH.agimus-sot=	\
+	'lib/pkgconfig/agimus-sot.pc:/Version/s/[^0-9.]//gp' \ 
+	'lib/lib/libagimus_sot.so'	
 
 endif # AGIMUS_SOT_DEPEND_MK -------------------------------------------------
 
