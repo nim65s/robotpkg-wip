@@ -2,7 +2,7 @@
 # Created:			Guilhem Saurel on Wed, 30 Jan 2019
 #
 
-PKGREVISION=		2
+PKGREVISION=		3
 HPP_PACKAGE=		hpp-rbprm-corba
 HPP_COMMENT=		Corba server for RB-PRM
 
@@ -26,7 +26,6 @@ include ../../math/eigen3/depend.mk
 include ../../path/hpp-core/depend.mk
 include ../../path/py-hpp-corbaserver/depend.mk
 include ../../path/hpp-util/depend.mk
-include ../../graphics/py-qt-hpp-gepetto-viewer/depend.mk
 include ../../mapping/octomap/depend.mk
 include ../../simulation/hpp-environments/depend.mk
 include ../../simulation/py-hpp-environments/depend.mk
