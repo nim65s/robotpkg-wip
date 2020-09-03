@@ -4,7 +4,7 @@
 
 ORG=			stack-of-tasks
 NAME=			sot-core
-VERSION=		4.10.0
+VERSION=		4.11.1
 
 PKGNAME=		${NAME}-v3-${VERSION}
 
@@ -29,5 +29,5 @@ include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
 include ../../mk/sysdep/graphviz.mk
 include ../../mk/language/c.mk
-include ../../mk/language/c++11.mk
+include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk
