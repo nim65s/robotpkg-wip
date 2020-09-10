@@ -14,7 +14,7 @@ LICENSE=		2-clause-bsd
 CATEGORIES=		wip
 COMMENT=		Package to link SoT to the Agimus framework.
 
-
+include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../wip/agimus_sot_msgs/depend.mk
 include ../../wip/py-dynamic-graph-v3/depend.mk
 include ../../wip/py-dynamic-graph-bridge-v3/depend.mk
@@ -25,4 +25,3 @@ include ../../devel/ros-catkin/depend.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk
-include ../../devel/jrl-cmakemodules/Makefile.common

@@ -14,8 +14,9 @@ LICENSE=		2-clause-bsd
 CATEGORIES=		wip
 COMMENT=		Messages and services for the agimus_sot package
 
+include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../devel/ros-catkin/depend.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk
-include ../../devel/jrl-cmakemodules/Makefile.common
+

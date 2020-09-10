@@ -14,11 +14,10 @@ LICENSE=		2-clause-bsd
 CATEGORIES=		wip
 COMMENT=		agimus
 
-
+include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../wip/agimus_sot_msgs/depend.mk
 include ../../wip/agimus-hpp/depend.mk
 include ../../devel/ros-catkin/depend.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk
-include ../../devel/jrl-cmakemodules/Makefile.common

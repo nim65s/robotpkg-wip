@@ -16,7 +16,7 @@ COMMENT=		Package to link HPP to the Agimus framework
 CMAKE_ARGS+=	-DBUILD_HPP_PLUGIN=ON
 CMAKE_ARGS+= 	-DBUILD_ROS_INTERFACE=ON
 
-
+include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../wip/agimus_sot_msgs/depend.mk
 include ../../motion/dynamic-graph-bridge-msgs/depend.mk
 include ../../middleware/py-omniORBpy/depend.mk
@@ -27,4 +27,3 @@ include ../../devel/ros-catkin/depend.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk
-include ../../devel/jrl-cmakemodules/Makefile.common

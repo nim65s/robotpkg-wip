@@ -27,6 +27,9 @@ SUBDIR+=	hatponboard-lib
 SUBDIR+=	head-action
 SUBDIR+=	hey5-description
 SUBDIR+=	hpp-affordance
+SUBDIR+=	hpp-benchmark
+SUBDIR+=	hrp2-14-description
+SUBDIR+=	hrp2-dev
 SUBDIR+=	infuse-asn1-conversions
 SUBDIR+=	infuse-asn1-types
 SUBDIR+=	infuse-envire
@@ -110,7 +113,7 @@ SUBDIR+=	py-solo-pybullet
 SUBDIR+=	py-sot-application-v3
 SUBDIR+=	py-sot-core-v3
 SUBDIR+=	py-sot-dynamic-pinocchio-v3
-SUBDIR+=	py-sot-dyninv-v3
+#SUBDIR+=	py-sot-dyninv-v3
 SUBDIR+=	py-sot-pattern-generator-v3
 SUBDIR+=	py-sot-talos
 SUBDIR+=	py-sot-talos-balance
@@ -177,5 +180,6 @@ SUBDIR+=	tiago-metapkg-ros-control-sot
 SUBDIR+=	timeoptimization
 SUBDIR+=	ur5-description
 SUBDIR+=	urg
+
 
 include ../mk/robotpkg.subdir.mk

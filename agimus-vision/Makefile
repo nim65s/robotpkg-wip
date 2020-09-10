@@ -14,10 +14,9 @@ LICENSE=		2-clause-bsd
 CATEGORIES=		wip
 COMMENT=		Computer vision for Agimus
 
-
+include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../image/ros-vision-opencv/depend.mk
 include ../../devel/ros-catkin/depend.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk
-include ../../devel/jrl-cmakemodules/Makefile.common
