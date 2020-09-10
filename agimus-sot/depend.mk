@@ -20,7 +20,7 @@ DEPEND_DIR.agimus-sot?=	../../wip/agimus-sot
 
 SYSTEM_SEARCH.agimus-sot=	\
 	'lib/pkgconfig/agimus-sot.pc:/Version/s/[^0-9.]//gp' \ 
-	'lib/lib/libagimus_sot.so'	
+	'lib/libagimus_sot.so'	
 
 endif # AGIMUS_SOT_DEPEND_MK -------------------------------------------------
 
