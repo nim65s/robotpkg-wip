@@ -15,7 +15,7 @@ LICENSE=                2-clause-bsd
 
 
 include ../../math/eigen3/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/sysdep/cmake.mk

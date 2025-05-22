@@ -12,8 +12,8 @@ COMMENT=		This packages provides motions of the humanoid robot Pyrene readable b
 CMAKE_PREFIX_PATH+=	${PREFIX}
 
 include ../../devel/jrl-cmakemodules/Makefile.common
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/cmake.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk

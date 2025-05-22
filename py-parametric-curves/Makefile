@@ -16,10 +16,10 @@ USE_PYTHON_ONLY=	true
 include ../../${CATEGORIES}/${NAME}/depend.mk
 include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../math/py-eigenpy/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
 include ../../mk/sysdep/graphviz.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk

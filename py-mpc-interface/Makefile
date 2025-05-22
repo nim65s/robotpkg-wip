@@ -15,10 +15,10 @@ COMMENT=		A fast and flexible formulation of QP Probl
 include ../../wip/py-sympy/depend.mk
 include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../math/eigen3/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
 include ../../mk/sysdep/graphviz.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/py-scipy.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk

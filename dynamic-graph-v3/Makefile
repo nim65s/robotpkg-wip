@@ -17,9 +17,9 @@ CMAKE_ARGS+=		-DINSTALL_DOCUMENTATION=OFF
 
 include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../math/eigen3/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/gzip.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/podlators.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk

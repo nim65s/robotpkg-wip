@@ -37,13 +37,13 @@ include ../../path/py-coal/depend.mk
 include ../../math/ros-geometry2/depend.mk
 include ../../math/ros-geometry/depend.mk
 include ../../motion/dynamic-graph-bridge-msgs/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../sysutils/ros-rospack/depend.mk
 include ../../wip/dynamic-graph-v3/depend.mk
 include ../../wip/py-dynamic-graph-v3/depend.mk
 include ../../wip/py-sot-core-v3/depend.mk
 include ../../mk/sysdep/bullet.mk
 include ../../mk/sysdep/cmake.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk

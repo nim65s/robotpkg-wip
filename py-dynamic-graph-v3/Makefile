@@ -18,10 +18,10 @@ include ../../devel/jrl-cmakemodules/Makefile.common
 include ../../wip/dynamic-graph-v3/depend.mk
 include ../../math/eigen3/depend.mk
 include ../../math/py-eigenpy/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
 include ../../mk/sysdep/graphviz.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/sysdep/py-sphinx.mk
 include ../../mk/language/c.mk

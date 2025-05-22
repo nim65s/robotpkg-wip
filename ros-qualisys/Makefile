@@ -16,10 +16,10 @@ include ../../devel/ros-catkin/depend.mk
 include ../../devel/ros-roscpp-core/depend.mk
 include ../../interfaces/ros-common-msgs/depend.mk
 include ../../math/ros-geometry2/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/boost-headers.mk
 include ../../mk/sysdep/boost-libs.mk
 include ../../mk/sysdep/cmake.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/robotpkg.mk

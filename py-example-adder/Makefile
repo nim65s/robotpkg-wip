@@ -16,12 +16,12 @@ MAINTAINER=		gsaurel@laas.fr
 USE_BOOST_LIBS=		unit_test_framework python
 
 include ../../devel/jrl-cmakemodules/Makefile.common
-include ../../pkgtools/pkg-config/depend.mk
 include ../../math/pinocchio/depend.mk
 include ../../math/py-pinocchio/depend.mk
 include ../../mk/sysdep/boost-headers.mk
 include ../../mk/sysdep/boost-libs.mk
 include ../../mk/sysdep/cmake.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk

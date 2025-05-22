@@ -14,7 +14,7 @@ MAINTAINER=		gepetto-soft@laas.fr
 
 DYNAMIC_PLIST_DIRS+=	share/doc/ur5_description
 
-include ../../pkgtools/pkg-config/depend.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/sysdep/cmake.mk

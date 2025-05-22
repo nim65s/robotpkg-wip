@@ -21,7 +21,6 @@ include ../../math/eigen3/depend.mk
 include ../../math/pinocchio/depend.mk
 include ../../math/py-pinocchio/depend.mk
 include ../../path/coal/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../wip/dynamic-graph-v3/depend.mk
 include ../../wip/py-dynamic-graph-v3/depend.mk
 include ../../wip/py-sot-core-v3/depend.mk
@@ -36,6 +35,7 @@ include ../../mk/sysdep/boost-libs.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
 include ../../mk/sysdep/graphviz.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/py-sphinx.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk

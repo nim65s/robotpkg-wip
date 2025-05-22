@@ -22,11 +22,11 @@ include ../../wip/jrl-walkgen-v3/depend.mk
 include ../../math/eigen-quadprog/depend.mk
 include ../../robots/example-robot-data/depend.mk
 include ../../wip/py-sot-core-v3/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/boost-headers.mk
 include ../../mk/sysdep/boost-libs.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk

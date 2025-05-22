@@ -23,10 +23,10 @@ CMAKE_ARGS+=		-DBUILD_PYBULLET_NUMPY=ON
 CMAKE_ARGS+=		-DPYTHON_SITELIB=${PYTHON_SITELIB}
 
 
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/boost-headers.mk
 include ../../mk/sysdep/boost-libs.mk
 include ../../mk/sysdep/cmake.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk

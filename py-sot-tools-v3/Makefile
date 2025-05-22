@@ -25,10 +25,10 @@ include ../../math/py-eigenpy/depend.mk
 include ../../path/coal/depend.mk
 include ../../mapping/octomap/depend.mk
 include ../../path/py-coal/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/cmake.mk
 include ../../mk/sysdep/doxygen.mk
 include ../../mk/sysdep/graphviz.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/sysdep/py-numpy.mk
 include ../../mk/sysdep/py-sphinx.mk

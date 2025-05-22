@@ -63,8 +63,8 @@ endif
 
 include ../../devel/ros-roscpp-core/depend.mk
 include ../../devel/ros-catkin/depend.mk
-include ../../pkgtools/pkg-config/depend.mk
 include ../../mk/sysdep/bullet.mk
+include ../../mk/sysdep/pkg-config.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
