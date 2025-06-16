@@ -1,0 +1,23 @@
+@comment Mon Jun 16 13:58:32 CEST 2025
+include/al/ethercat_AL.h
+include/al/ethercat_FSM.h
+include/al/ethercat_master.h
+include/al/ethercat_mbx.h
+include/al/ethercat_process_data.h
+include/al/ethercat_router.h
+include/al/ethercat_slave_conf.h
+include/al/ethercat_slave_handler.h
+include/dll/ethercat_device_addressed_telegram.h
+include/dll/ethercat_dll.h
+include/dll/ethercat_frame.h
+include/dll/ethercat_logical_addressed_telegram.h
+include/dll/ethercat_slave_memory.h
+include/dll/ethercat_telegram.h
+include/ethercat/ethercat_datastruct.h
+include/ethercat/ethercat_defs.h
+include/ethercat/ethercat_log.h
+include/ethercat/ethercat_xenomai_drv.h
+include/ethercat/netif.h
+lib/libeml.so
+share/eml/EMLConfig.cmake
+share/eml/package.xml
