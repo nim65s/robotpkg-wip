@@ -1,0 +1,7 @@
+@comment Mon Jun 16 16:09:30 CEST 2025
+include/pr2_hardware_interface/hardware_interface.h
+lib/pkgconfig/pr2_hardware_interface.pc
+share/pr2_hardware_interface/cmake/pr2_hardware_interface-extras.cmake
+share/pr2_hardware_interface/cmake/pr2_hardware_interfaceConfig-version.cmake
+share/pr2_hardware_interface/cmake/pr2_hardware_interfaceConfig.cmake
+share/pr2_hardware_interface/package.xml
