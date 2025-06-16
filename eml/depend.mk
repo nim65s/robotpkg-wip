@@ -8,12 +8,12 @@ endif
 ifeq (+,${EML_DEPEND_MK})
 PREFER.eml?=		robotpkg
 
-DEPEN_USE+=		eml
+DEPEND_USE+=		eml
 
 DEPEND_ABI.eml?=	eml>=1.8.15
 DEPEND_DIR.eml?=	../../wip/eml
 
-SYSTEM_SEARCH_eml=\
+SYSTEM_SEARCH.eml=\
 	lib/libeml.so \
 	include/al/ethercat_AL.h \
 	share/eml/EMLConfig.cmake
