@@ -5,10 +5,11 @@ CATEGORIES=     hardware
 DISTNAME=       eml-1.8.15
 MASTER_SITES=   ${MASTER_SITE_OPENROBOTS:=pr2/}
 MASTER_REPOSITORY=      ${MASTER_REPOSITORY_GITHUB}/mherrb/eml
+PKGREVISION=	1
 
 COMMENT=        Ethercat Master Library
 MAINTAINER=     openrobots@laas.fr
-LICENCE=        gnu-gpl-v2
+LICENSE=        gnu-gpl-v2
 
 ONLY_FOR_PLATFORM=      Linux-%
 
