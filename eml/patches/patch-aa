@@ -1,0 +1,18 @@
+commit 8daa0fa4bc272866521c782e832222810d2ef115
+Author: Matthieu Herrb <matthieu@herrb.eu>
+Date:   Tue Jun 17 09:09:14 2025 +0200
+
+    add missing <unistd.h> include
+
+diff --git eml-svn/src/arch/posix/ethercat_posix_drv.c eml-svn/src/arch/posix/ethercat_posix_drv.c
+index f79ad61..69ef98e 100644
+--- eml-svn/src/arch/posix/ethercat_posix_drv.c
++++ eml-svn/src/arch/posix/ethercat_posix_drv.c
+@@ -39,6 +39,7 @@
+ #include <errno.h>
+ #include <signal.h>
+ #include <pthread.h>
++#include <unistd.h>
+ #include <sys/ioctl.h>
+ #include <sys/types.h>
+ #include <sys/socket.h>
