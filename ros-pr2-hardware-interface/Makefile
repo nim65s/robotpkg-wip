@@ -19,6 +19,8 @@ WRKSRC=		${WRKDIR}/${ROS_METAPKG}-${ROS_VERSION}/${ROS_PKG}
 
 include ../../meta-pkgs/ros-base/Makefile.common
 
+include ../../middleware/ros-comm/depend.mk
+include ../../interfaces/ros-common-msgs/depend.mk
 include ../../devel/ros-catkin/depend.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/robotpkg.mk
