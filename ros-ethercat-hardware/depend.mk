@@ -1,5 +1,5 @@
 # robotpkg depend.mk for:	wip/ros-ethercat-hardware
-# Created:			Matthieu Herrb on Mon, 16 Jun 2025
+# Created:			Matthieu Herrb on Wed, 18 Jun 2025
 #
 
 DEPEND_DEPTH:=		${DEPEND_DEPTH}+

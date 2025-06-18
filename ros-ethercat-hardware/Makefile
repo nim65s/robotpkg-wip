@@ -1,3 +1,6 @@
+# robotpkg Makefile for:	wip/ros-ethercat-hardware
+# Created:			Matthieu Herrb on Mon, 16 Jun 2025
+#
 
 ROS_PKG=	ethercat_hardware
 ROS_METAPKG=	pr2_ethercat_drivers
