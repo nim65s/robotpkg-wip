@@ -120,6 +120,7 @@ SUBDIR+=	qpmad
 SUBDIR+=	qualisys-cpp-sdk
 SUBDIR+=	roralink
 SUBDIR+=	ros-aicp-mapping
+SUBDIR+=	ros-ethercat-hardware
 SUBDIR+=	ros-four-wheel-steering-msgs
 SUBDIR+=	ros-image-pipeline
 SUBDIR+=	ros-moveit
