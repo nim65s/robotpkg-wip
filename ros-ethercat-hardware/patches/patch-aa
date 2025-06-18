@@ -1,0 +1,13 @@
+Cope with ros-console in robotpkg not having log4cxx support
+
+--- src/motorconf.cpp.orig	2025-06-18 12:38:13.915563250 +0200
++++ src/motorconf.cpp	2025-06-18 12:51:20.197667712 +0200
+@@ -641,7 +641,7 @@
+   // Set log level to DEBUG to allow device information to be displayed to
+   // output by default
+   log4cxx::LoggerPtr logger = log4cxx::Logger::getLogger(ROSCONSOLE_DEFAULT_NAME);
+-  logger->setLevel(ros::console::g_level_lookup[ros::console::levels::Debug]);
++  logger->setLevel(log4cxx::Level::getInfo());
+   ros::console::notifyLoggerLevelsChanged();
+   
+   // Parse options
