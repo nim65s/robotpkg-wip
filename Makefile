@@ -134,6 +134,7 @@ SUBDIR+=	ros-pcl-msgs
 SUBIDR+=	ros-pr2-description
 SUBDIR+=	ros-pr2-hardware-interface
 SUBDIR+=	ros-pr2-machine
+SUBIDR+=	ros-pr2-mechanism-msgs
 SUBDIR+=	ros-pr2-msgs
 SUBDIR+=	ros-py-urdf-parser
 SUBDIR+=	ros-qualisys
