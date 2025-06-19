@@ -131,6 +131,7 @@ SUBDIR+=	ros-object-recognition-msgs
 SUBDIR+=	ros-octomap-msgs
 SUBDIR+=	ros-perception-pcl
 SUBDIR+=	ros-pcl-msgs
+SUBIDR+=	ros-pr2-description
 SUBDIR+=	ros-pr2-hardware-interface
 SUBDIR+=	ros-pr2-msgs
 SUBDIR+=	ros-py-urdf-parser
