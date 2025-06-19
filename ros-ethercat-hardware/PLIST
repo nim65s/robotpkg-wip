@@ -47,7 +47,6 @@ ${PYTHON_SITELIB}/ethercat_hardware/srv/_SoftProcessorFirmwareRead.py
 ${PYTHON_SITELIB}/ethercat_hardware/srv/_SoftProcessorFirmwareWrite.py
 ${PYTHON_SITELIB}/ethercat_hardware/srv/_SoftProcessorReset.py
 ${PYTHON_SITELIB}/ethercat_hardware/srv/__init__.py
-share/catkin/cmake/test/tests.cmake.orig
 share/common-lisp/ros/ethercat_hardware/msg/ActuatorInfo.lisp
 share/common-lisp/ros/ethercat_hardware/msg/BoardInfo.lisp
 share/common-lisp/ros/ethercat_hardware/msg/MotorTemperature.lisp
