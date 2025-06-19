@@ -1,3 +1,6 @@
+# robotpkg Makefile for:	wip/ros-fingertip-pressure
+# Created:			Matthieu Herrb on Thu, 19 Jun 2025
+#
 
 ROS_PKG=	fingertip_pressure
 ROS_METAPKG=	pr2_ethercat_drivers
