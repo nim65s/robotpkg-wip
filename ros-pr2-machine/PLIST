@@ -1,0 +1,7 @@
+@comment Thu Jun 19 20:09:36 CEST 2025
+lib/pkgconfig/pr2_machine.pc
+share/pr2_machine/cmake/pr2_machineConfig-version.cmake
+share/pr2_machine/cmake/pr2_machineConfig.cmake
+share/pr2_machine/package.xml
+share/pr2_machine/pr2.machine
+share/pr2_machine/sim.machine
