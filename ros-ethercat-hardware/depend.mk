@@ -18,7 +18,7 @@ SYSTEM_PREFIX.ros-ethercat-hardware?=	${SYSTEM_PREFIX.ros-base}
 DEPEND_USE+=			ros-ethercat-hardware
 ROS_DEPEND_USE+=		ros-ethercat-hardware
 
-DEPEND_ABI.ros-ethercat-hardware?=	ros-ethercat-hardware>=1.13.1
+DEPEND_ABI.ros-ethercat-hardware?=	ros-ethercat-hardware>=1.9.0
 DEPEND_DIR.ros-ethercat-hardware?=	../../wip/ros-ethercat-hardware
 
 SYSTEM_SEARCH.ros-ethercat-hardware=\
