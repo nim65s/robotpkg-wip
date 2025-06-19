@@ -1,0 +1,17 @@
+@comment Thu Jun 19 21:06:49 CEST 2025
+include/pr2_mechanism_model/chain.h
+include/pr2_mechanism_model/joint.h
+include/pr2_mechanism_model/joint_calibration_simulator.h
+include/pr2_mechanism_model/pr2_belt_transmission.h
+include/pr2_mechanism_model/pr2_gripper_transmission.h
+include/pr2_mechanism_model/robot.h
+include/pr2_mechanism_model/simple_transmission.h
+include/pr2_mechanism_model/transmission.h
+include/pr2_mechanism_model/tree.h
+include/pr2_mechanism_model/wrist_transmission.h
+lib/libpr2_mechanism_model.so
+lib/pkgconfig/pr2_mechanism_model.pc
+share/pr2_mechanism_model/cmake/pr2_mechanism_modelConfig-version.cmake
+share/pr2_mechanism_model/cmake/pr2_mechanism_modelConfig.cmake
+share/pr2_mechanism_model/package.xml
+share/pr2_mechanism_model/transmission_plugins.xml

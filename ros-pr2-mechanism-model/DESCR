@@ -1,0 +1,8 @@
+This package contains the robot model that is used by the realtime
+controllers inside controller manager.
+
+This robot model focuses on controlling the robot mechanism in a
+realtime control loop, and therefore it only contains the components
+of a robot that are relevant in realtime: the robot joints (with
+encoders, transmisisons and actuators) and the kinematic/dynamic model
+of the robot.
