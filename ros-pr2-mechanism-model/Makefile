@@ -23,7 +23,7 @@ include ../../middleware/ros-comm/depend.mk
 include ../../devel/ros-cmake-modules/depend.mk
 include ../../wip/ros-pr2-hardware-interface/depend.mk
 include ../../graphics/ros-urdf/depend.mk
-include ../../wip/mk/sysdep/liburdfdom.mk
+include ../../graphics/urdfdom/depend.mk
 include ../../graphics/ros-kdl-parser/depend.mk
 include ../../devel/ros-pluginlib/depend.mk
 include ../../math/ros-angles/depend.mk
