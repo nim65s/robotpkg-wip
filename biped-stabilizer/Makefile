@@ -4,7 +4,7 @@
 
 ORG=			gepetto
 NAME=			biped-stabilizer
-VERSION=		1.3.0
+VERSION=		1.4.0
 
 CATEGORIES=		wip
 COMMENT=		Stabilizer for biped locomotion
@@ -12,10 +12,11 @@ LICENSE=		2-clause-bsd
 MAINTAINER=		gsaurel@laas.fr
 
 USE_BOOST_LIBS=		unit_test_framework
+USE_MASTER_GITHUB=	yes
 
 CMAKE_ARGS+=		-DBUILD_PYTHON_INTERFACE=OFF
 
-include ../../devel/jrl-cmakemodules/Makefile.common
+include ../../devel/jrl-cmakemodules/depend.mk
 
 include ../../math/eigen3/depend.mk
 include ../../mk/sysdep/boost-headers.mk

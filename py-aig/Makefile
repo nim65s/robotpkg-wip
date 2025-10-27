@@ -4,7 +4,7 @@
 
 ORG=			gepetto
 NAME=			aig
-VERSION=		1.2.1
+VERSION=		1.3.1
 
 PKGNAME=		${PKGTAG.python-}${DISTNAME}
 
@@ -15,8 +15,9 @@ MAINTAINER=		gsaurel@laas.fr
 
 USE_BOOST_LIBS=		unit_test_framework python
 USE_PYTHON_ONLY=	true
+USE_MASTER_GITHUB=	true
 
-include ../../devel/jrl-cmakemodules/Makefile.common
+include ../../devel/jrl-cmakemodules/depend.mk
 
 include ../../wip/aig/depend.mk
 include ../../math/eiquadprog/depend.mk

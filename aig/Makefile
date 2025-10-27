@@ -4,18 +4,19 @@
 
 ORG=			gepetto
 NAME=			aig
-VERSION=		1.2.1
+VERSION=		1.3.1
 
 CATEGORIES=		wip
 COMMENT=		Stand alone computation of inverse geometry for biped robots or robotic arms.
 LICENSE=		2-clause-bsd
 MAINTAINER=		gsaurel@laas.fr
 
+USE_MASTER_GITHUB=	yes
 USE_BOOST_LIBS=		unit_test_framework
 
 CMAKE_ARGS+=		-DBUILD_PYTHON_INTERFACE=OFF
 
-include ../../devel/jrl-cmakemodules/Makefile.common
+include ../../devel/jrl-cmakemodules/depend.mk
 
 include ../../math/eiquadprog/depend.mk
 include ../../math/pinocchio/depend.mk

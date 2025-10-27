@@ -34,4 +34,6 @@ lib/cmake/biped-stabilizer/biped-stabilizerTargets.cmake
 lib/libbiped-stabilizer.so
 lib/libbiped-stabilizer.so.${PKGVERSION}
 lib/pkgconfig/biped-stabilizer.pc
+share/ament_index/resource_index/packages/biped-stabilizer
+share/biped-stabilizer/hook/ament_prefix_path.dsv
 share/biped-stabilizer/package.xml
